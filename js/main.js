@@ -143,6 +143,8 @@ function resetAllInputs() {
   contactGroupSelect.value = "";
   favoriteContact.checked = false;
   emergencyContact.checked = false;
+  contactPreview.src = "";
+  document.getElementById("userLogo").classList.remove("d-none");
 
   contactNameInput.classList.remove("is-valid");
   contactPhoneInput.classList.remove("is-valid");
